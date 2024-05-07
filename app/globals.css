@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 31, 29, 43;
+    --background-end-rgb: 31, 29, 43;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.HomePageTopDiv {
+  height: 50vh;
+}
+
+.todaysExersices {
+  font-size: 1.5rem;
+}
+
+.CarouselHolder {
+  width: 300px;
+}
+
+.buttonsCarousel {
+  padding-left: -10px;
+}
+
+.TodayExerciseCard {
+  background-color: '0165e5';
+}
+
+.custom-link {
+  color: black;
+}
