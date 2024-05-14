@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 Run the backend - follow this link
-https://github.com/pranavkrishnasuresh/TheraputeMicrosoftBackend
+https://github.com/pranavkrishnasuresh/TheraputeV2Backend
 
 
 1. Clone the repo
